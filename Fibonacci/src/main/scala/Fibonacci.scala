@@ -2,6 +2,10 @@ package com.knoldus
 
 import scala.annotation.tailrec
 
+<<<<<<< HEAD
+=======
+//class Fibonacci
+>>>>>>> c8644c96de81704a792f79e51fbe59fefa136627
 class Fibonacci {
 
   @tailrec
@@ -17,7 +21,7 @@ class Fibonacci {
 
 }
 
-
+//Main method is used to call the getFibonacciValue method
 object FibonacciMain extends App {
 
   val fibonacciInstance = new Fibonacci
